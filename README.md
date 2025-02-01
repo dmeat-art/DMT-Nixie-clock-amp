@@ -1,5 +1,3 @@
-intro
-___________________________
 I think I discovered the existence of nixie tubes around 15 years ago ? That's the moment I also noticed the timers in Final Fantasy 7 were recolored nixie tubes. From that time, I would search for Nixie Clocks on Youtube from time to time.
 
 # Table of Contents
