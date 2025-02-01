@@ -9,15 +9,21 @@
 5. [Code](#code)
 6. [Final Design](#design)
 7. [Custom PCB](#pcb)
-8. [Laser cut plates](#plates)
+8. [Laser cut acrylic plates](#plates)
 9. [Wood Templates](#wood)
 
 # Project timeline / story <a name="timeline"></a>
 
 I think I discovered the existence of nixie tubes around 15 years ago ? That's the moment I also noticed the timers in Final Fantasy 7 were recolored nixie tubes. From that time, I would search for Nixie Clocks on Youtube from time to time.
+
+<img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/ff7_escape_timer_zoom.png">
+
 Time passed, and later in life, in 2017, I got a small but stable income for the first time, and looked around for info and tutorials.
+
 The decision to make my own nixie clock was taken. I am trained in art, enjoying traditional, digital, and 3D creation, but I also like making stuff in general. I did build some kits when I was a young teenager, but this was ages ago. But I also was really excited to make something cool, and I finally stepped in.
+
 And I also got another kit for a nixie tube VU meter (using IN-13 tubes), with the goal of maybe combining the clock and an audio amplifier in one package.
+
 The clock project back then was such :
 - Display time and date
 - Adjust the time and date
@@ -25,13 +31,21 @@ The clock project back then was such :
 - An alarm bell (an extremely loud shop door bell running in 220V, fun times !)
 - Alarm time set up
 - Alarm on/off switch
-I'm absolutely not trained in electronic circuits design, so I was happy to find the Arduinix board, it was a good base to get started !
+
+I'm absolutely not trained in electronic circuits design, so I was happy to find the [Arduinix](http://www.arduinix.com/)  board, it was a good base to get started !
+
 By the first half of 2018, I had all my functions cabled up, with a complete menu system (long/short button presses to access and cycle through the options, and a rotary encoder to adjust the values). I wanted to use a realtime clock module to remember the time, but I could never make it work reliably.
+
 Then, in 2018, bigger projects got in the way, and the project was disassembled and put in a box.
-In 2023, I decided to finally assemble a Lily58 split keyboard I had also bought years ago. Galvanized by this successful endeavour, I took out the nixie clock out and started working on it.
+
+In 2023, I decided to finally assemble a [Lily58 split keyboard](https://github.com/kata0510/Lily58?tab=readme-ov-file) I had also bought years ago. Galvanized by this successful endeavour, I took out the nixie clock out and started working on it.
+
 After bringing it back to life, I decided to simplify the project : out goes the RTC module, I decided to have a system that could synchronize itself from the internet.
+
 I experimented a little bit with an ESP32, but there weren't enough available pins to interface with the arduinix shield. I then discovered that there now was a new arduino board with wifi included, and the same (or same enough) header pin layout, and decided to go with that.
-I took the base I had already coded, cut out all the setup system, and included the wifi stuff (see 'code' section below).
+
+I took the base I had already coded, cut out all the setup system, and included the wifi stuff (see ['code'](#code) section below).
+
 After that, time passed again, I decided on the final design, and tried hard to get this project finished in summer 2024, before september and the end of the summer break. This didn't work out, but I didn't put the project away and used my (now very reduced) free time to push hard towards the conclusion of this project.
 I reached the finish line on february, saturday 18, 2025.
 
@@ -84,7 +98,7 @@ Link to the Artstation page to be added here later.
 
 I don't know how to use PCB CAD software, but I know how to use vector drawing software, so I drew the PCB like that.
 
-# Laser cut plates <a name="plates"></a>
+# Laser cut acrylic plates <a name="plates"></a>
 
 The design uses laser cut acrylic plates. They are assembled with aluminum angle brackets and M3 screws and bolts, and I tapped most of the holes for direct mounting.
 The diameter of the holes for the nixie tubes might actually be bad, I remember boring them with a step-bit to make them larger ^^'''
