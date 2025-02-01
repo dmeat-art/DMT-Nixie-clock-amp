@@ -60,7 +60,7 @@ I wanted to share the research sketches I made over the years.
 I made a 3D model of the clock in Blender to better vizualise it.
 Link to the Artstation page to be added here later.
 
-<img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/3D.png">
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/3D.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/3D.png"></a>
 
 # WARNING <a name="warning"></a>
 
