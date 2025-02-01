@@ -19,7 +19,7 @@ I think I discovered the existence of nixie tubes around 15 years ago ? That's t
 
 Time passed, and later in life, in 2017, I got a small but stable income for the first time, and looked around for info and tutorials.
 
-The decision to make my own nixie clock was taken. I am trained in art, enjoying traditional, digital, and 3D creation, but I also like making stuff in general. I did build some kits when I was a young teenager, but this was ages ago. But I also was really excited to make something cool, and I finally stepped in.
+The decision to make my own nixie clock was taken. I am trained in art, enjoying traditional, digital, and 3D creation, but I also like making stuff in general. I did build some electronic kits when I was a young teenager, but this was ages ago. But I also was really excited to make something cool, and I finally stepped in.
 
 And I also got another kit for a nixie tube VU meter (using IN-13 tubes), with the goal of maybe combining the clock and an audio amplifier in one package.
 
