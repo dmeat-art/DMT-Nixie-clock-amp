@@ -109,13 +109,24 @@ Every friday at 9am, the clock will connect to your local wifi to re-synchronize
 
 I don't know how to use PCB CAD software, but I know how to use vector drawing software, so I drew the PCB like that.
 
+<img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/pcb.png">
+
 # Laser cut acrylic plates <a name="plates"></a>
 
 The design uses laser cut acrylic plates. They are assembled with aluminum angle brackets and M3 screws and bolts, and I tapped most of the holes for direct mounting.
+
 The diameter of the holes for the nixie tubes might actually be bad, I remember boring them with a step-bit to make them larger ^^'''
+
+<img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/lasercut.png">
 
 # Wood Templates <a name="wood"></a>
 
-These files are a recap of the size and shape of all the wooden parts for the front of the clock and the amp. They are glued to the face plates using slow setting epoxy glue and creative claming.
+These files are a recap of the size and shape of all the wooden parts for the front of the clock and the amp. They are glued to the face plates using slow setting epoxy glue and creative claming. I laser-cut two extra plates specially to bolt on the final face plates in order to position all the wood parts right where they should be.
+
+<img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/clock.png">
+
+
+<img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/amp.png">
+
 
 The wood parts are made from cherry. I try to only work with hand tools. I prepared the 1x1cm stock and cut them to length and angle. The outer frame has a slight angle.
