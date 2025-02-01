@@ -70,9 +70,22 @@ I wanted to share the research sketches I made over the years.
 <a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2017-10.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2017-10.png"></a>
 <a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2017-11.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2017-11.png"></a>
 
-2023
+## 2020
 
-I made a 3D model of the clock in Blender to better vizualise it.
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2020.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2020.png"></a>
+
+## 2023
+
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2023-2.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2023-2.png"></a>
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2023-3.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2023-3.png"></a>
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2023-4.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2023-4.png"></a>
+
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2023-5.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2023-5.png"></a>
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2023-6.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2023-6.png"></a>
+
+## 3D Renders
+
+Early on, I worked on a 3D model of the clock in Blender to better vizualise it. I later added the Amplifier. This render is up to date.
 Link to the Artstation page to be added here later.
 
 <a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/3D.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/3D.png"></a>
