@@ -55,7 +55,11 @@ I wanted to share the research sketches I made over the years.
 
 ## 2017
 
-<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2027-01.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2027-01.png"></a> <a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2027-02.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2027-02.png"></a> <a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2027-03.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2027-03.png"></a>
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2017-01.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2017-01.png"></a>
+ <a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2017-02.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2017-02.png"></a>
+ <a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2017-03.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2017-03.png"></a>
+
+<a href="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Concept-art/2017-04.png"><img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/2017-04.png"></a>
 
 2023
 
