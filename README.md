@@ -7,10 +7,9 @@
 3. [WARNING](#warning)
 4. [Parts](#parts)
 5. [Code](#code)
-6. [Final Design](#design)
-7. [Custom PCB](#pcb)
-8. [Laser cut acrylic plates](#plates)
-9. [Wood Templates](#wood)
+6. [Custom PCB](#pcb)
+7. [Laser cut acrylic plates](#plates)
+8. [Wood Templates](#wood)
 
 # Project timeline / story <a name="timeline"></a>
 
@@ -52,13 +51,17 @@ I reached the finish line on february, saturday 18, 2025.
 
 # Concept Art <a name="concept"></a>
 
-I wanted to share the sketches I made over the years.
+I wanted to share the research sketches I made over the years.
 
 2017
 
 2023
 
- 
+I made a 3D model of the clock in Blender to better vizualise it.
+Link to the Artstation page to be added here later.
+
+<img src="https://github.com/dmeat-art/DMT-Nixie-clock-amp/blob/main/Images/Thumbs/3D.png">
+
 # WARNING <a name="warning"></a>
 
 **I'm absolutely not trained in electronic circuits design !**
@@ -71,11 +74,11 @@ I wanted to share the sketches I made over the years.
 
 # Parts <a name="parts"></a>
 
-- Nixie Clock :
+- **Nixie Clock :**
 
 The clock uses an arduino uno R4 Wifi, the Arduinix sheld, 4 WF Z5600M Nixie Tubes, 4 6mm Neon Lamp. There are some resistors on the mounting PCB to adjust the voltage to the neon lamps (10K ? I can't remember). Also a cool chrome button, a nice lever switch, and C14 power input, with switch and fuse.
 
-- Nixie VU meter Amplifier
+- **Nixie VU meter Amplifier**
 
 The VU meter kit is the SGVU151 (found on ebay) and it uses IN-13 tubes. I would advice to relocate the variable resistors on the board to an easier accessible spot for adjusting after the final assembly of the project.
 
@@ -92,19 +95,15 @@ I didn't write everything from scratch, the wifi stuff is pretty much copied fro
 ** *Sorry, the code comments are a mish-mash of english and french.* **
 
 Here's a quick run-down of the main parts of the code :
-1. Wifi Access point Mode :
+1. **Wifi Access point Mode :**
 If the button is pressed down when the clock is powered on, a wifi access point is created. You can connect to it without any password. You then go to the IP adress specified in the code, enter your local wifi SSID and password, click on submit. These infos are saved in the arduino's EEPROM. The clock will "reboot" and get into "get time" mode.
-2. "Get Time" mode :
+2. **"Get Time" mode :**
 The clock "boots" : it starts the wifi client, connects to your local wifi, then to the NTP Server, recovers the current time, and then disconnects and gets into Clock Mode.
-3. Clock Mode :
+3. **Clock Mode :**
 The clocks displays the current time it got (or 1st january 1970 00:00 if it couldn't).
 Every minute, the tubes display random numbers for a second to mitigate cathode poisoning. It will then display the year, then the month and day, and then the time.
 Every friday at 9am, the clock will connect to your local wifi to re-synchronize.
 
-# Final Design <a name="design"></a>
-
-I made a 3D model of the clock in Blender to better vizualise it.
-Link to the Artstation page to be added here later.
 
 # Custom PCB <a name="pcb"></a>
 
@@ -117,6 +116,6 @@ The diameter of the holes for the nixie tubes might actually be bad, I remember 
 
 # Wood Templates <a name="wood"></a>
 
-These files are a recap of the size and shape of all the wooden parts for the front of the clock and the amp. They are glued to it using slow setting epoxy glue and creative claming.
+These files are a recap of the size and shape of all the wooden parts for the front of the clock and the amp. They are glued to the face plates using slow setting epoxy glue and creative claming.
 
 The wood parts are made from cherry. I try to only work with hand tools. I prepared the 1x1cm stock and cut them to length and angle. The outer frame has a slight angle.
