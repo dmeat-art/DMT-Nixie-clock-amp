@@ -82,7 +82,7 @@ The clock uses an arduino uno R4 Wifi, the Arduinix sheld, 4 WF Z5600M Nixie Tub
 
 The VU meter kit is the SGVU151 (found on ebay) and it uses IN-13 tubes. I would advice to relocate the variable resistors on the board to an easier accessible spot for adjusting after the final assembly of the project.
 
-The amp uses a board I found on Amazon that matched the power of the speakers I had on hand and wanted to use : ELA21306. I wanted both minijack input and bluetooth support, and this board works. I sodered wires on the input jack to offset it to a rotary selector, including the plug detection pin. I used a 4 way 3 pin commutator, got some nice aluminium knobs, input jacks, lever switches, and C14 power input, with switch and fuse.
+The amp uses a board I found on Amazon that matched the power of the speakers I had on hand and wanted to use : ELA21306. I wanted both minijack input and bluetooth support, and this board works. I sodered wires on the input jack to offset it to a rotary selector, including the plug detection pin. I used a 4 way 3 pin commutator, got some nice aluminium knobs, input jacks, lever switches, and C14 power input, with switch and fuse. The innards of this one is pure spaghetti.
 
 With hindsight, I'm not satisfied with it and I might rework it some day, either with an amplifier only board, or with a raspberry pi 3 + Hifi shield. But not today.
 
@@ -94,7 +94,7 @@ I didn't write everything from scratch, the wifi stuff is pretty much copied fro
 
 ** *Sorry, the code comments are a mish-mash of english and french.* **
 
-Here's a quick run-down of the main parts of the code :
+### **Here's a quick run-down of the main parts of the code :**
 
 1. **Wifi Access point Mode :**
 
