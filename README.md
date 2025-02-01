@@ -47,6 +47,7 @@ I experimented a little bit with an ESP32, but there weren't enough available pi
 I took the base I had already coded, cut out all the setup system, and included the wifi stuff (see ['code'](#code) section below).
 
 After that, time passed again, I decided on the final design, and tried hard to get this project finished in summer 2024, before september and the end of the summer break. This didn't work out, but I didn't put the project away and used my (now very reduced) free time to push hard towards the conclusion of this project.
+
 I reached the finish line on february, saturday 18, 2025.
 
 # Concept Art <a name="concept"></a>
@@ -60,25 +61,36 @@ I wanted to share the sketches I made over the years.
  
 # WARNING <a name="warning"></a>
 
-I'm absolutely not trained in electronic circuits design !
-The code and PCB design I made for this project do work for me, but should not be taken as-is without any review and modification for your own project !
-Nixie Tubes use high voltage, be careful !
-This is absolutely not a tutorial or a kit ! This page is more of a post-mortem, and the files are available for anyone to take a look. There are A LOT of improvisation and adaptations I made along the way when making the actual boxes and mounting the components inside.
+**I'm absolutely not trained in electronic circuits design !**
+
+**The code and PCB design I made for this project do work for me, but should not be taken as-is without any review and modification for your own project !**
+
+**Nixie Tubes use high voltage, be careful !**
+
+**This is absolutely not a tutorial or a kit ! This page is more of a post-mortem, and the files are available for anyone to take a look. There are ALOT of improvisation and adaptations I made along the way when making the actual boxes and mounting the components inside.**
 
 # Parts <a name="parts"></a>
 
-Nixie Clock
+- Nixie Clock :
+
 The clock uses an arduino uno R4 Wifi, the Arduinix sheld, 4 WF Z5600M Nixie Tubes, 4 6mm Neon Lamp. There are some resistors on the mounting PCB to adjust the voltage to the neon lamps (10K ? I can't remember). Also a cool chrome button, a nice lever switch, and C14 power input, with switch and fuse.
-Nixie VU meter Amplifier
+
+- Nixie VU meter Amplifier
+
 The VU meter kit is the SGVU151 (found on ebay) and it uses IN-13 tubes. I would advice to relocate the variable resistors on the board to an easier accessible spot for adjusting after the final assembly of the project.
+
 The amp uses a board I found on Amazon that matched the power of the speakers I had on hand and wanted to use : ELA21306. I wanted both minijack input and bluetooth support, and this board works. I sodered wires on the input jack to offset it to a rotary selector, including the plug detection pin. I used a 4 way 3 pin commutator, got some nice aluminium knobs, input jacks, lever switches, and C14 power input, with switch and fuse.
+
 With hindsight, I'm not satisfied with it and I might rework it some day, either with an amplifier only board, or with a raspberry pi 3 + Hifi shield. But not today.
 
 # Code <a name="code"></a>
 
-CompleteNixie.ino
-- I didn't write everything from scratch, the wifi stuff is pretty much copied from available examples, with credit to the author. The nixie multiplexing code was re-written from how I understood it from the given examples on the Arduinix Website.
-Sorry, the code comments are a mish-mash of english and french.
+**CompleteNixie.ino**
+
+I didn't write everything from scratch, the wifi stuff is pretty much copied from available examples, with credit to the author. The nixie multiplexing code was re-written from how I understood it from the given examples on the Arduinix Website.
+
+** *Sorry, the code comments are a mish-mash of english and french.* **
+
 Here's a quick run-down of the main parts of the code :
 1. Wifi Access point Mode :
 If the button is pressed down when the clock is powered on, a wifi access point is created. You can connect to it without any password. You then go to the IP adress specified in the code, enter your local wifi SSID and password, click on submit. These infos are saved in the arduino's EEPROM. The clock will "reboot" and get into "get time" mode.
@@ -106,4 +118,5 @@ The diameter of the holes for the nixie tubes might actually be bad, I remember 
 # Wood Templates <a name="wood"></a>
 
 These files are a recap of the size and shape of all the wooden parts for the front of the clock and the amp. They are glued to it using slow setting epoxy glue and creative claming.
+
 The wood parts are made from cherry. I try to only work with hand tools. I prepared the 1x1cm stock and cut them to length and angle. The outer frame has a slight angle.
