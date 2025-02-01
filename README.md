@@ -96,12 +96,17 @@ I didn't write everything from scratch, the wifi stuff is pretty much copied fro
 
 Here's a quick run-down of the main parts of the code :
 1. **Wifi Access point Mode :**
+
 If the button is pressed down when the clock is powered on, a wifi access point is created. You can connect to it without any password. You then go to the IP adress specified in the code, enter your local wifi SSID and password, click on submit. These infos are saved in the arduino's EEPROM. The clock will "reboot" and get into "get time" mode.
 2. **"Get Time" mode :**
+
 The clock "boots" : it starts the wifi client, connects to your local wifi, then to the NTP Server, recovers the current time, and then disconnects and gets into Clock Mode.
 3. **Clock Mode :**
+
 The clocks displays the current time it got (or 1st january 1970 00:00 if it couldn't).
+
 Every minute, the tubes display random numbers for a second to mitigate cathode poisoning. It will then display the year, then the month and day, and then the time.
+
 Every friday at 9am, the clock will connect to your local wifi to re-synchronize.
 
 
